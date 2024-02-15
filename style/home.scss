@@ -1,0 +1,66 @@
+body {
+    width: 100%;
+    height: 100 vH;
+    display: flex;
+    padding: 25px 0 0 250px; 
+}
+
+.main {
+    width: 530px;
+    height: 650px;
+    padding: 160px 0 0 40px;
+
+    &_top {
+        color: #000;
+        font-family: "Oxygen", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 64px;
+    }
+
+    &_middle {
+        color: #000;
+        font-family: "Oxygen", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+    }
+
+    &_middle2 {
+        width: 200px;
+        height: 60px;
+        border-radius: 8px;
+        text-align: center;
+        padding: 20px 0 0 0;
+        background-color: #000;
+        color: #fff;
+        font-family: "Oxygen", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+
+    }
+
+    &_bottom {
+        display: flex;
+        margin: 95px 0 0 0;
+    }
+
+    &_twitter {
+        padding: 0 0 0 30px;
+    }
+
+    &_basketbol {
+        padding: 0 0 0 30px;
+    }
+}
+
+aside {
+    width: 420px;
+    height: 650px;
+    border-radius: 8px;
+    background-image: url('/assets/back_image.png');
+    background-color: #eee;
+    background-repeat: no-repeat;
+}
+
